@@ -16,6 +16,6 @@ class Lemonade < Formula
   end
 
   def test
-    assert_match("Version", shell_output("bash -c '#{bin}/lemonade --help 2>&1 || true'").strip)
+    assert_match("Version:\n  #{version}", shell_output("bash -c '#{bin}/lemonade --help 2>&1 || true'").strip)
   end
 end
