@@ -3,9 +3,9 @@ class Lemonade < Formula
   homepage "https://github.com/lemonade-command/lemonade"
   license "MIT"
 
-  url "https://github.com/lemonade-command/lemonade/archive/97ad2f7d63cbe6c696af36a754d399b4be4553bc.zip"
-  sha256 "858c5d58c0dbf5b9be72f4fd7f6340997eeb5ae0acff1af3ab9f45d7086e366b"
-  version "97ad2f7d63cbe6c696af36a754d399b4be4553bc"
+  url "https://github.com/lemonade-command/lemonade/archive/refs/tags/v1.1.2.zip"
+  sha256 "28d8397a63cc3c18f46ae7017d6d2b42fa31d83527a0a4577f819fa3293d5283"
+  version "1.1.2"
 
   head "https://github.com/lemonade-command/lemonade.git"
 
